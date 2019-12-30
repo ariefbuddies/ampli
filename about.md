@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tentang aku
+title: Tentang Aku
 permalink: /about/
 ---
 
