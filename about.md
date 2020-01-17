@@ -1,8 +1,13 @@
 ---
 layout: page
 title: Tentang Aku
-permalink: /about/
+permalink: /me/
 ---
 
 <amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/g/400/200"></amp-img>
-Pusinggg pokokmen!!!
+
+&nbsp;
+
+Pusinggg pokokmen dab\!\!\!
+
+&nbsp;
