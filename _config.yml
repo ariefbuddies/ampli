@@ -34,3 +34,7 @@ kramdown:
 gems:
   - jekyll-paginate
   - jekyll-maps
+
+ maps:
+    google:
+      api_key: <AIzaSyCkJ7Z5hemgqzGLodcAofByopo0aPoRMhE>
