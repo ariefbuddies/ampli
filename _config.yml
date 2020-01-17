@@ -35,6 +35,4 @@ gems:
   - jekyll-paginate
   - jekyll-maps
 
- maps:
-    google:
-      api_key: AIzaSyCkJ7Z5hemgqzGLodcAofByopo0aPoRMhE
+google_maps_javascript_api_key: "AIzaSyCkJ7Z5hemgqzGLodcAofByopo0aPoRMhE"
