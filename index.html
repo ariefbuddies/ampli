@@ -23,8 +23,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://yourdomain.com/",
   "headline": "BrAwesome Ariefb Setyawan",
-  "datePublished": "2020-01-17T06:48:43+00:00",
-  "dateModified": "2020-01-17T06:48:43+00:00",
+  "datePublished": "2020-01-17T06:49:23+00:00",
+  "dateModified": "2020-01-17T06:49:23+00:00",
   "description": "Ariefb Brawesome Shite
 ",
   "author": {
@@ -721,6 +721,36 @@ pre {
     </div>
 </footer>
 
+<div id="map" style="width:300px;height:300px;"></div>
+<script>
+  window.mapData = {"latitude": -45.8787605,"longitude": 170.5027976, "zoom": 5};
+
+  function initMap() {
+    var myOptions = {
+      scrollwheel: false,
+      draggable: false,
+      panControl: false,
+      disableDefaultUI: true,
+      zoom: window.mapData.zoom,
+      maxZoom: window.mapData.zoom,
+      minZoom: window.mapData.zoom,
+      center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+    var marker = new google.maps.Marker({
+      map: map,
+      position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
+    });
+
+    google.maps.event.addDomListener(window, 'resize', function() {
+      map.setCenter(myOptions.center);
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkJ7Z5hemgqzGLodcAofByopo0aPoRMhE&amp;callback=initMap"></script>
 
 
     
